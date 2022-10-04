@@ -1,0 +1,290 @@
+/* Parte do header */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #000000;
+    height: 80px;
+
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 8px;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 29px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+    padding: 10px;
+}
+
+/* menu das paginas */
+
+.header-2 {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    /* border-bottom: 2.75px solid #00bac6; */
+    border-bottom: 2.75px solid #ff0000;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+    color: #ff0000;
+
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* menu de busca */
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100width {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+button.slick-prev {
+    font-size: 0px;
+    /* border: none; */
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/anterior.png');
+    top: 45%;
+    left: 13%;
+
+}
+
+button.slick-next {
+    font-size: 0px;
+    /* border: none; */
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/proximo.png');
+    top: 45%;
+    right: 13%;
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 750px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque h3 {
+    color: #646464;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.bloco-textoPortugues {
+    margin-top: 30%;
+
+}
+
+
+.bloco-textoIngles {
+    margin-right: 90%;
+    margin-top: -10%
+}
+
+
+.bloco-textoSobre {
+    margin-top: -26%;
+    margin-left: 68%;
+}
+
+h3 {
+    font-weight: normal !important;
+}
+
+.sobre {
+    margin-left: 43%;
+}
+
+.materia {
+
+    display: flex;
+
+    margin: auto;
+
+    justify-content: center;
+
+    background-color: #000000;
+
+    /* background-color: rgba(131, 125, 125, 0.5); */
+
+    width: 70%;
+
+    /* opacity: 50%; */
+
+    /* flex-direction: column; teste */
+
+    text-align: center;
+
+}
+
+.materia p {
+    color: #ffffff;
+}
+
+.pipoca {
+    margin-left: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.linha {
+    color: #ffffff;
+}
+
+.botao {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 5px 70px 20px 420px;
+    transition: .5s;
+}
